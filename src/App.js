@@ -1,9 +1,8 @@
 import React from 'react'
+import AdviceGenerator from "./components/AdviceGenerator";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <AdviceGenerator />;
+};
 
 export default App
